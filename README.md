@@ -17,8 +17,8 @@
 
 1. นำเข้า `database/schema.sql` แล้ว `database/seed.sql` ด้วย phpMyAdmin หรือ MySQL CLI; หากต้องการข้อมูลผู้ป่วยและนัดหมายสำหรับสาธิต ให้นำเข้า `database/demo.sql` อีกครั้งหนึ่ง
 2. คัดลอก `config.example.php` เป็น `config.local.php` แล้วแก้ host, port, database, username และ password ตามเครื่อง (ไฟล์นี้ไม่ถูก commit)
-3. จากโฟลเดอร์โครงการ รัน `php -S 127.0.0.1:8000 -t public`
-4. เปิด `http://127.0.0.1:8000`
+3. จากโฟลเดอร์โครงการ รัน `php -S 127.0.0.1:8765 -t public`
+4. เปิด `http://127.0.0.1:8765`
 
 ตัวอย่างสำหรับ XAMPP: เปิด MySQL ใน XAMPP Control Panel, นำเข้า SQL ใน phpMyAdmin แล้วใช้ค่าฐานข้อมูลใน `config.example.php` หาก root ไม่มีรหัสผ่าน
 
